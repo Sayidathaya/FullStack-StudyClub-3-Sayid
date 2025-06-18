@@ -4,87 +4,109 @@
 # Sistem Informasi Unmul Akt 24
 
 ## Hasil
-![Image](https://github.com/user-attachments/assets/e6178d9d-684a-4257-b01d-3bf763727165)
+![Image](https://github.com/user-attachments/assets/875dac12-3454-41a8-9074-689afe607ef3)
 
-![Image](https://github.com/user-attachments/assets/3c95657a-c6f6-4599-a6b5-bdb8d83e82b5)
+![Image](https://github.com/user-attachments/assets/16a764a1-44f9-45b2-8752-1db5d5a7a657)
 
-![Image](https://github.com/user-attachments/assets/ceeddaa7-889f-4d04-b9db-239e1e846a06)
+![Image](https://github.com/user-attachments/assets/a811272d-f215-4b52-9f4c-109d76d046a1)
 
-![Image](https://github.com/user-attachments/assets/63d07f44-07db-419f-8c0f-e4dfdf20a1d7)
+![Image](https://github.com/user-attachments/assets/3c992596-0e3d-4df0-9dab-b0947da69584)
+
+![Image](https://github.com/user-attachments/assets/95a05ec9-db89-4017-849b-eef42572e50a)
+
+![Image](https://github.com/user-attachments/assets/b234723b-62c4-4ee6-a5d6-7b28377510de)
 
 
-## 🕸️ **Judul Website: Spider-Man Multiverse**
 
-Website ini menampilkan berbagai versi karakter Spider-Man dalam bentuk halaman web statis yang menarik dan informatif.
+## 🕸️ **Judul Website: SpiderMultiverse**
+
+Website statis ini menampilkan berbagai versi film, game, dan karakter Spider-Man dalam tampilan yang interaktif, responsif, dan sangat estetik.
 
 ---
 
 ## 🔝 **Navigasi (Navbar)**
 
-* Navbar tetap berada di atas saat menggulir halaman.
-* Warna merah khas Spider-Man dengan teks kuning dan tautan putih.
-* Menu: **Home**, **Seri Spider-Man**, **Tentang**, dan **Kontak**.
+* Ikon dan teks “SpiderMultiverse” di kiri, menu di kanan.
+* Warna navbar gelap semi-transparan dengan efek blur yang tetap berada di atas saat scroll.
+* Tautan menu: **Home**, **Movies**, **About**, **Video Games**, **Characters**, **Contact**; teks putih dengan efek hover merah.
+* Font custom Orbitron & Oswald—memberi kesan futuristik dan tegas.
 
 ---
 
 ## 🏠 **Halaman Home**
 
-* Menampilkan judul sambutan dan deskripsi singkat.
-* Gambar besar Spider-Man di bagian tengah, memberi kesan heroik.
-* Latar abu-abu terang yang kontras dengan navbar.
+* Judul utama “Welcome to SpiderMultiverse” dengan animasi pulse.
+* Gambar hero Spider-Man berada di tengah, membesar saat hover (scale).
+* Background gradien merah-biru-hitam plus overlay jaring laba-laba semi-transparan.
+* Efek animasi `fade-in` saat masuk halaman.
 
 ---
 
-## 🎬 **Bagian Seri Spider-Man**
+## 🎬 **Halaman Movies**
 
-* Berisi beberapa kartu film Spider-Man paling populer:
-
-  * *Spider-Man (2002)* – Tobey Maguire
-  * *The Amazing Spider-Man (2012)* – Andrew Garfield
-  * *Into the Spider-Verse (2018)* – animasi Miles Morales
-  * *No Way Home (2021)* – Tom Holland dan multiverse
-* Setiap film tampil dalam kartu dengan gambar, judul, dan deskripsi.
-* Tata letak fleksibel dan responsif.
+* Judul “Movies” dengan ikon film dan animasi bounce.
+* Kartu film untuk 10 judul utama (dari Tobey Maguire, Andrew Garfield, Tom Holland, hingga animasi Spider-Verse).
+* Gambar poster tiap film, teks dengan box rounded, shadow, dan efek hover scale.
+* Background gradien + overlay jaring laba-laba, fade-in di konten lalu navigasi smooth fade-out utk perpindahan halaman.
 
 ---
 
-## 🧑‍🔬 **Bagian Tentang**
+## ✅ **Halaman About**
 
-* Menjelaskan asal-usul karakter Spider-Man.
-* Terdapat gambar Peter Parker di sebelah teks deskriptif.
-* Disusun secara horizontal dengan latar merah yang khas dan mencolok.
-
----
-
-## 📞 **Bagian Kontak**
-
-* Menampilkan alamat email fiktif untuk kontak.
-* Disertai kotak ber-scroll (overflow box) berisi teks dummy, menunjukkan fitur overflow.
+* Judul “Sejarah Franchise Spider‑Man” dengan animasi pulse.
+* Gambar cover “Amazing Fantasy #15” berukuran besar, rounded, shadow, dan scale hover.
+* Teks sejarah lengkap dalam box semi-transparan dengan shadow, font besar dan nyaman dibaca.
+* Background gradien belakang + jaring laba-laba overlay.
 
 ---
 
-## 📢 **Footer**
+## 🎮 **Halaman Video Games**
 
-* Terletak di bagian bawah halaman.
-* Menampilkan informasi hak cipta tahun 2025 dengan latar gelap dan teks putih.
+* Judul “Video Games” di tengah dengan animasi bounce.
+* Kartu game (10 judul mulai dari PS1 tahun 2000 sampai Marvel’s Spider‑Man 2 PS5) menggunakan layout grid tiga kolom.
+* Gambar cover game di dalam box rounded, shadow, hover scale.
+* Efek fade-in + overlay jaring laba-laba yang sama seperti halaman lain.
 
 ---
 
-## 🎨 **Tampilan Visual**
+## 🕷️ **Halaman Characters**
 
-* Skema warna dominan: **merah, biru, putih, dan kuning**, sesuai tema Spider-Man.
-* Font modern dan bersih.
-* Elemen dibatasi dengan bentuk membulat dan bayangan lembut (border-radius).
-* Menggunakan layout *flexbox* untuk tampilan responsif.
+* Judul “Characters” dengan animasi pulse.
+* Kartu karakter (lebih dari 16 jenis, dari Peter Parker hingga Carnage) dipresentasikan lewat gambar, nama, dan satu baris deskripsi.
+* Box rounded dan shadow dengan hover scale.
+* Grid responsif dengan layout seragam dan background gradien + overlay.
+
+---
+
+## 📞 **Halaman Contact**
+
+* Judul “Kontak Kami” dengan teks dan font tebal khas.
+* Alamat email dicetak tegas.
+* Kotak white card dengan overflow-auto, shadow, dan hover scale.
+* Letak kontak berada di tengah layar, background dan overlay konsisten.
+
+---
+
+## ✨ **Styling & Efek Visual**
+
+* **Border-radius**: semua kartu, tombol, dan gambar memiliki sudut membulat.
+* **Efek Transparansi**: box semi-opaque, elemen navbar transparan, jaring laba-laba overlay.
+* **Bayangan**: kartu dan gambar memiliki box-shadow lembut.
+* **Gradien**: kombinasi linear gradient pada background tiap halaman (merah–biru–hitam).
+* **Filter**: overlay jaring laba-laba dibuat menggunakan opacity.
+* **Transform**: scale pada hover kartu dan gambar; bounce pada ikon dan judul.
+* **Transition**: 0.6–0.8 detik antara hover, fade-in, dan perpindahan halaman.
+* **Animasi CSS**: bounce, fade-in, pulse otomatis saat loading halaman.
 
 ---
 
 ## ✅ **Kesan Umum**
 
-* Website tampil **menarik, terstruktur, dan mudah dinavigasi**.
-* Cocok untuk penggemar Spider-Man yang ingin menjelajahi berbagai versi karakter di berbagai media.
-* Sudah mencerminkan tema multiverse dengan variasi tampilan film.
+* Tampilan konsisten dan **menghidupkan tema Spider-Man** melalui visual, warna, dan animasi.
+* Navigasi mudah dengan efek transisi antarhalaman yang mulus.
+* Desain responsif, cocok tampil di desktop maupun mobile.
+* Idealis untuk penggemar yang ingin menjelajahi multiverse Spider-Man dengan kesan profesional dan fun.
 
 ---
 
-##Sekian, Terimakasih!
+Sekian dokumentasi **SpiderMultiverse** yang telah saya rangkum, terimakasih! 🚀
